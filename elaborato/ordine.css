@@ -1,0 +1,65 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+html{
+	background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+}
+.container{
+    width:50%;
+    height:30%;
+    margin:auto;
+    border-bottom:1px solid black;
+    text-align:center;
+    padding-bottom:1%;
+}
+a{
+    text-decoration: none;
+    color:black;
+    border-bottom:1px solid black;
+    padding-top:1%;
+    font-size:15pt;
+}
+h2{
+    font-size:23pt;
+}
+table{
+    width:100%;
+    height:70%;
+    margin:auto;
+    font-size:20pt;
+}
+
+#nome{
+    text-align: right;
+    width:20%;
+    padding-right:1%;
+    height:5%;
+}
+#desc{
+    text-align: left;
+    width:80%;
+    height:5%;
+}
+@media screen and (max-width:750px){
+	*{
+        margin:0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: 'Nunito', sans-serif;
+	}
+    .container{
+        width:95%;
+        height:45%;
+        font-size:30pt;
+        padding-bottom:3%;
+    }
+    #nome{
+    	font-size:15pt;
+    }
+    #desc{
+    	font-size:18pt;
+    }
+}

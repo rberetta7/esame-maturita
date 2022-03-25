@@ -1,0 +1,571 @@
+@media screen and (min-width: 1000px) {
+    *{
+        margin:0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    body{
+        background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+        height: 98.5vh;
+        overflow: hidden;
+    }
+
+    .alternanza{
+        width:30vw;
+        height:40vh;
+        border-radius:5px;
+        float: left;
+        margin-left:10%;
+        margin-top:12%;
+        box-shadow: 5px 10px 18px #888888;    
+        -webkit-animation: entrata 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: entrata 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        
+    }
+
+    .alternanza > .top{
+        float:left;
+        width:100%;
+        height:15%;
+        background-color: white;
+        border-radius:5px 5px 0px 0px;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 50px; 
+    }
+
+    .alternanza > .top > h3{
+        opacity: 1;
+        font-size: 22pt;
+        font-family: 'Nunito', sans-serif;
+        /*padding:7px 7px 7px 7px;*/
+    }
+
+    .alternanza > .link{
+        float:left;
+        width:100%;
+        height:85%;
+        border-radius:0px 0px 5px 5px;
+        position: relative;
+        background-image: url("img/ditta.jpg");
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image*/
+        background-size: cover;
+    }
+    
+    .elaborato{
+        width:30vw;
+        height:40vh;
+        border-radius:5px;
+        float: left;
+        margin-left:20%;
+        margin-top:12%;
+        box-shadow: 5px 10px 18px #888888;
+        -webkit-animation: entrata 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: entrata 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+
+    .elaborato > .top{
+        float:left;
+        width:100%;
+        height:15%;
+        background-color: white;
+        border-radius:5px 5px 0px 0px;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 50px; 
+    }
+
+    .elaborato > .top > h3{
+        opacity: 1;
+        font-size: 22pt;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .elaborato > .bottom{
+        float:left;
+        width:100%;
+        height:85%;
+        border-radius:0px 0px 5px 5px;
+        position: relative;
+        background-image: url("img/elaborato.jpg");
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image*/
+        background-size: cover;
+        position: relative;
+    }
+
+
+    .a_alter,
+    .a_elab{
+        width: 20%;
+        height: 13%;
+        text-decoration: none;
+        color: black;
+        bottom:7px;
+        left:40%;
+        right:40%;
+        text-align:center;
+        justify-content: center;
+        align-items: center;   
+        position: absolute;
+        display:none;
+        background-color: lightgray;
+        font-size:15pt;
+        border-radius:5px;
+        font-weight: bold;
+    }
+
+    .alternanza > .bottom:hover > .a_alter,
+    .elaborato > .bottom:hover > .a_elab{
+        display: flex;
+        justify-content: center;
+        align-items: center;   
+        position: absolute;
+    }
+
+    .alternanza:hover,
+    .elaborato:hover{
+        cursor: pointer;
+        transition: 0.4s;
+    }
+
+    header{
+        background-color: #E8E8E8;
+        width: 95%;
+        height:14vh;
+        margin:0 auto;
+        margin-top:15px;
+        text-align: center;
+        position: relative;
+        box-shadow: 5px 10px 18px #888888;
+        -webkit-animation: header 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	    animation: header 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+
+    header > h1{
+        position: absolute;
+        top:0;
+        left:30%;
+        right:30%;
+        margin:auto;
+        font-family: 'Nunito', sans-serif;
+        text-transform: uppercase;
+        font-size: 28pt;
+        letter-spacing: 2px;
+        padding-bottom:1%;
+    }
+    header > h2{
+        position: absolute;
+        bottom:0;
+        left:35%;
+        right:35%;
+        font-family: 'Nunito', sans-serif;
+        letter-spacing: 1px;
+        font-size:23pt;
+    }
+    footer{
+    	position:absolute;
+        bottom:0;
+        width:100%;
+        height:3%;
+        text-align:center;
+        background-color: lightgray;
+        padding:3px;
+        font-family: 'Nunito', sans-serif;
+        line-height:17px;
+    }
+}
+/*    TABLET     */
+@media only screen and (min-width: 750px) and (max-width: 1000px){
+    *{
+        margin:0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    
+    body{
+        background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+        overflow: hidden;
+        width:100vw;
+        height:100vh;
+    }
+    
+    .alternanza{
+        width:45vw;
+        height:30vh;
+        border-radius:5px;
+        box-shadow: 0 0 25px #333333;
+        margin: auto;
+        margin-top:15%;
+    }
+    
+    .alternanza > .top{
+        float:left;
+        width:100%;
+        height:15%;
+        background-color: white;
+        border-radius:5px 5px 0px 0px;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 50px;  
+    }
+    
+    .alternanza > .top > h3{
+        opacity: 1;
+        font-size: 20pt;
+        font-family: 'Nunito', sans-serif;
+    }
+    
+    .alternanza > .link{
+        float:left;
+        width:100%;
+        height:85%;
+        border-radius:0px 0px 5px 5px;
+        background-image: url("img/ditta.jpg");
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image*/
+        background-size: cover;
+        position: relative;
+    }
+    
+    .elaborato{
+        width:45vw;
+        height:30vh;
+        border-radius:5px;
+        box-shadow: 0 0 25px #333333;
+        margin: auto;
+        margin-top:15%;
+    }
+    
+    .elaborato > .top{
+        float:left;
+        width:100%;
+        height:15%;
+        background-color: white;
+        border-radius:5px 5px 0px 0px;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 50px;  
+    }
+    
+    .elaborato > .top > h3{
+        opacity: 1;
+        font-size: 20pt;
+        font-family: 'Nunito', sans-serif;
+    }
+    
+    .elaborato > .bottom{
+        float:left;
+        width:100%;
+        height:85%;
+        border-radius:0px 0px 5px 5px;
+        background-image: url("img/elaborato.jpg");
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image*/
+        background-size: cover;
+        position: relative;
+    }
+    
+    
+    .a_alter,
+    .a_elab{
+        width: 25%;
+        height: 20%;
+        text-decoration: none;
+        color: black;
+        bottom:7px;
+        left:40%;
+        right:40%;
+        text-align:center;
+        justify-content: center;
+        align-items: center;   
+        position: absolute;
+        display: flex;
+        background-color: lightgray;
+        font-size:15pt;
+        border-radius:5px;
+        font-weight: bold;
+    }
+    
+    
+    .alternanza:hover,
+    .elaborato:hover{
+        cursor: pointer;
+        transition: 0.4s;
+    }
+
+    header{
+        border-radius: 4px;
+        background-color: lightgray;
+        width: 95%;
+        height:10vh;
+        margin:0 auto;
+        margin-top:5px;
+        text-align: center;
+        position: relative;
+        box-shadow: 5px 10px 18px #888888;
+    }
+
+    header > h1{
+        position: absolute;
+        top:0;
+        left:15%;
+        right:15%;
+        margin:auto;
+        font-family: 'Nunito', sans-serif;
+        text-transform: uppercase;
+        font-size: 23pt;
+        letter-spacing: 2px;
+    }
+    header > h2{
+        position: absolute;
+        bottom:0;
+        left:10%;
+        right:10%;
+        font-family: 'Nunito', sans-serif;
+        letter-spacing: 1px;
+    }
+	footer{
+    	position:absolute;
+        bottom:0;
+        width:100%;
+        height:3%;
+        text-align:center;
+        background-color: lightgray;
+        padding:3px;
+        font-family: 'Nunito', sans-serif;
+    }
+    
+}
+
+/*             TELEFONI          */
+@media only screen and (max-width: 750px) {
+    *{
+        margin:0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    
+    body{
+        background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+        overflow: hidden;
+        width:100vw;
+        height:100vh;
+    }
+    
+    .alternanza{
+        width:90vw;
+        height:30vh;
+        border-radius:5px;
+        box-shadow: 5px 10px 18px #888888;
+        margin: auto;
+        margin-top:10%;
+    }
+    
+    .alternanza > .top{
+        float:left;
+        width:100%;
+        height:17%;
+        background-color: white;
+        border-radius:5px 5px 0px 0px;
+    }
+    
+    .alternanza > .top > h3{
+        opacity: 1;
+        font-size: 20pt;
+        font-family: 'Nunito', sans-serif;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 40px;
+    }
+    
+    .alternanza > .link{
+        float:left;
+        width:100%;
+        height:85%;
+        border-radius:0px 0px 5px 5px;
+        background-image: url("img/ditta.jpg");
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image*/
+        background-size: cover;
+        position: relative;
+    }
+    
+    .elaborato{
+        width:90vw;
+        height:30vh;
+        border-radius:5px;
+        box-shadow: 5px 10px 18px #888888;
+        margin: auto;
+        margin-top:10%;
+    }
+    
+    .elaborato > .top{
+        float:left;
+        width:100%;
+        height:17%;
+        background-color: white;
+        border-radius:5px 5px 0px 0px;
+        
+    }
+    
+    .elaborato > .top > h3{
+        opacity: 1;
+        font-size: 20pt;
+        font-family: 'Nunito', sans-serif;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 40px;
+    }
+    
+    .elaborato > .bottom{
+        float:left;
+        width:100%;
+        height:85%;
+        border-radius:0px 0px 5px 5px;
+        background-image: url("img/elaborato.jpg");
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image*/
+        background-size: cover;
+        position: relative;
+    }
+    
+    .a_alter,
+    .a_elab{
+        width: 25%;
+        height: 20%;
+        text-decoration: none;
+        color: black;
+        bottom:7px;
+        left:39%;
+        right:40%;
+        text-align:center;
+        justify-content: center;
+        align-items: center;   
+        position: absolute; 
+        display: flex;
+        background-color: lightgray;
+        font-size:15pt;
+        border-radius:5px;
+        font-weight: bold;
+    }
+    
+    
+    .alternanza:hover,
+    .elaborato:hover{
+        cursor: pointer;
+        transition: 0.4s;
+    }
+
+    header{
+        border-radius: 4px;
+        background-color: lightgray;
+        width: 95%;
+        height:10vh;
+        margin:0 auto;
+        margin-top:5px;
+        text-align: center;
+        position: relative;
+        box-shadow: 5px 10px 18px #888888;
+    }
+
+    header > h1{
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+        margin:auto;
+        font-family: 'Nunito', sans-serif;
+        text-transform: uppercase;
+        font-size: 20pt;
+        letter-spacing: 2px;
+    }
+    header > h2{
+        position: absolute;
+        bottom:0;
+        left:10%;
+        right:10%;
+        font-family: 'Nunito', sans-serif;
+        letter-spacing: 1px;
+        font-size: 15pt;
+    }
+    
+	footer{
+    	position:absolute;
+        bottom:0;
+        width:100%;
+        height:5%;
+        text-align:center;
+        background-color: lightgray;
+        padding:3px;
+        font-family: 'Nunito', sans-serif;
+        font-size:15pt;
+    }
+    
+}
+
+
+
+/*            ANIMAZIONI       */
+ @-webkit-keyframes entrata {
+    0% {
+      -webkit-transform: translateY(-600px) rotateX(-30deg) scale(0);
+              transform: translateY(-600px) rotateX(-30deg) scale(0);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0) rotateX(0) scale(1);
+              transform: translateY(0) rotateX(0) scale(1);
+      -webkit-transform-origin: 50% 1400px;
+              transform-origin: 50% 1400px;
+      opacity: 1;
+    }
+  }
+  @keyframes entrata {
+    0% {
+      -webkit-transform: translateY(-600px) rotateX(-30deg) scale(0);
+              transform: translateY(-600px) rotateX(-30deg) scale(0);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0) rotateX(0) scale(1);
+              transform: translateY(0) rotateX(0) scale(1);
+      -webkit-transform-origin: 50% 1400px;
+              transform-origin: 50% 1400px;
+      opacity: 1;
+    }
+  }
+  
+
+  /* ----------------------------------------------*/
+
+@-webkit-keyframes header{
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      opacity: 1;
+    }
+}
+@keyframes header {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      opacity: 1;
+    }
+}

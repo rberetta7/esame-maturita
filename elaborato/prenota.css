@@ -1,0 +1,487 @@
+@media screen and (min-width:1000px){
+    *{
+        margin:0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    body{
+    	text-align:center;
+        width:100vw;
+        height:100vh;
+        overflow:hidden;
+        background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    }
+    .ordinazione{
+        width:100%;
+        height:47%;
+    }
+    h1{
+        width:35%;
+        height:8%;
+        margin:auto;
+        margin-bottom:1%;
+        margin-top:1%;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Nunito', sans-serif;
+    }
+    #table1{
+        font-family: 'Nunito', sans-serif;
+        width:34%;
+        height:200px;
+        text-align: center;
+        padding:2px 0px 2px 0px;
+        text-transform: uppercase;
+        float:left;
+        font-size:20pt;
+    }
+    #table2,#table3{
+        font-family: 'Nunito', sans-serif;
+        
+        height:200px;
+        text-align: center;
+        padding:2px 0px 2px 0px;
+        text-transform: uppercase;
+        float:left;
+        font-size:20pt;
+    }
+    #table2{
+   		width:33.333%;
+    	padding-top:5%;
+    }
+    #table3{
+    	width:32%;
+    	padding-top:6%;
+    }
+    th{
+        font-style: oblique;
+    }
+    #pizze{
+        width:40%;
+    }
+    #prezzo{
+        width:20%;
+    }
+    #bibite{
+    	width:40%;
+    }
+    #bottoni1{
+    	width:25%;
+    }
+    #bottoni2{
+    	width:19%;
+    }
+    #bottoni3{
+    	width:16%;
+    }
+    #ord1,#ord2,#ord3{
+        width:15%;
+        height:250px;
+        border:1px solid gray;
+        border-radius:5px;
+        float:left;
+        font-family: 'Nunito', sans-serif;
+        text-align:left;
+        margin-top:2%;
+    }
+    #ord2,#ord3{
+    	margin-left:2%;
+    }
+    .conto{
+    	width:5%;
+        height:50px;
+        border:1px solid gray;
+        border-radius:5px;
+        float:left;
+        font-family: 'Nunito', sans-serif;
+        margin-left:2%;
+        margin-top:2%;
+        vertical-align:middle;
+        text-align:center;
+        line-height:50px;
+        overflow:hidden;
+    }
+    .add{
+        background-color: white;
+        border-radius: 2px;
+        font-size:15pt;
+        border:1px solid black;
+    }
+    .add:hover{
+        cursor: pointer;
+        background-color: green;
+    }
+    .remove{
+        width:75%;
+        background-color: white;
+        border-radius: 2px;
+        font-size:15pt;
+        border:1px solid black;
+    }
+    .remove:hover{
+        cursor: pointer;
+        background-color: red;
+    }
+    .but1,.rem1{
+    	width:35%;
+    }
+    .but2,.rem2{
+    	width:30%;
+    }
+    .but3,.rem3{
+    	width:30%;
+    }
+    
+    form{
+    	width:100%;
+        height:500px;
+        float:left;
+        text-align:center;
+        border-top:1px dotted black;
+    }
+    .first{
+    	margin-left:15%;
+    }
+    input[type="submit"]{
+    	margin-top:7%;
+        padding:7px 15px 7px 15px;
+        background-color:white;
+        font-family: 'Nunito', sans-serif;
+        border:1px solid black;
+        font-size:15pt;
+        transition:0.4s;
+    }
+    input[type="submit"]:hover{
+    	margin-top:7%;
+        background-color:black;
+        color:white;
+        font-family: 'Nunito', sans-serif;
+        border:1px solid black;
+        cursor:pointer;
+        transition:0.4s;
+    }
+    strong{
+    	margin-left:1%;
+        font-size:15pt;
+    }
+}
+@media screen and (min-width:750px) and (max-width:1000px){
+    *{
+        margin:0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    body{
+    	text-align:center;
+        width:100vw;
+        height:100vh;
+        overflow-x:hidden;
+        background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    }
+    .ordinazione{
+        width:100%;
+        height:100%;
+    }
+    h1{
+        width:100%;
+        height:8%;
+        margin:auto;
+        margin-bottom:1%;
+        margin-top:1%;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Nunito', sans-serif;
+        font-size:30pt;
+    }
+    #table1{
+        font-family: 'Nunito', sans-serif;
+        width:100%;
+        height:200px;
+        text-align: center;
+        padding:2px 0px 2px 0px;
+        text-transform: uppercase;
+    }
+    #table2,#table3{
+        font-family: 'Nunito', sans-serif;
+        width:100%;
+        height:80vh;
+        text-align: center;
+        padding:2px 0px 2px 0px;
+        text-transform: uppercase;
+        border-top:1px solid black;
+    }
+    #table3{
+    	margin-bottom:5%;
+    }
+    th{
+        font-style: oblique;
+        font-size:18pt;
+    }
+    #pizze{
+        width:40%;
+    }
+    #prezzo{
+        width:20%;
+    }
+    #bibite{
+    	width:40%;
+    }
+    #bottoni1{
+    	width:20%;
+    }
+    #bottoni2{
+    	width:20%;
+    }
+    #bottoni3{
+    	width:20%;
+    }
+    #ord1,#ord2,#ord3{
+        width:30%;
+        height:35%;
+        border:1px solid gray;
+        border-radius:5px;
+        font-family: 'Nunito', sans-serif;
+        text-align:left;
+        margin-top:5%;
+        float:left;
+        overflow-x:hidden;
+        font-size:15pt;
+    }
+    #ord2,#ord3{
+    	margin-left:3.33%;
+    }
+    .conto{
+        width:15%;
+        height:5%;
+        border:1px solid gray;
+        border-radius:5px;
+        font-family: 'Nunito', sans-serif;
+        vertical-align:middle;
+        text-align:center;
+        line-height:45px;
+        overflow:hidden;
+        font-size:20pt;
+        margin-right:10%;
+    	/*margin-top:3.5%;*/
+    }
+    .add{
+        background-color: white;
+        border-radius: 2px;
+        font-size:15pt;
+        border:1px solid black;
+    }
+    .add:hover{
+        cursor: pointer;
+        background-color: green;
+    }
+    .remove{
+        width:75%;
+        background-color: white;
+        border-radius: 2px;
+        font-size:15pt;
+        border:1px solid black;
+    }
+    .remove:hover{
+        cursor: pointer;
+        background-color: red;
+    }
+    .but1,.rem1{
+    	width:35%;
+    }
+    .but2,.rem2{
+    	width:35%;
+    }
+    .but3,.rem3{
+    	width:35%;
+    }
+    
+    form{
+    	width:100%;
+        height:100%;
+        text-align:center;
+        float:left;
+        border-top:1px dotted black;
+        margin-top:4%;
+    }
+    input[type="submit"]{
+    	margin-top:7%;
+        padding:7px 15px 7px 15px;
+        background-color:white;
+        font-family: 'Nunito', sans-serif;
+        border:1px solid black;
+        font-size:15pt;
+        transition:0.4s;
+        -webkit-appearance: none;
+    }
+    input[type="submit"]:hover{
+    	margin-top:7%;
+        background-color:black;
+        color:white;
+        font-family: 'Nunito', sans-serif;
+        border:1px solid black;
+        cursor:pointer;
+        transition:0.4s;
+    }
+    strong{
+    	margin-left:1%;
+    }
+}
+@media screen and (max-width:750px){
+    *{
+        margin:0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    body{
+    	text-align:center;
+       /* width:100vw;
+        height:100vh;*/
+        overflow-x:hidden;
+        background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    }
+    .ordinazione{
+        width:100%;
+        height:60%;
+    }
+    h1{
+        width:100%;
+        height:8%;
+        margin:auto;
+        margin-bottom:1%;
+        margin-top:1%;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Nunito', sans-serif;
+        font-size:30pt;
+    }
+    #table1{
+        font-family: 'Nunito', sans-serif;
+        width:100%;
+        height:50%;
+        text-align: center;
+        padding:2px 0px 2px 0px;
+        text-transform: uppercase;
+    }
+    #table2,#table3{
+        font-family: 'Nunito', sans-serif;
+        width:100%;
+        height:25%;
+        text-align: center;
+        padding:2px 0px 2px 0px;
+        text-transform: uppercase;
+        border-top:1px solid black;
+    }
+    th{
+        font-style: oblique;
+        font-size:18pt;
+    }
+    #pizze{
+        width:40%;
+    }
+    #prezzo{
+        width:20%;
+    }
+    #bibite{
+    	width:40%;
+    }
+    #bottoni1{
+    	width:20%;
+    }
+    #bottoni2{
+    	width:20%;
+    }
+    #bottoni3{
+    	width:20%;
+    }
+    #ord1,#ord2,#ord3{
+        width:30%;
+        height:40vh;
+        border:1px solid gray;
+        border-radius:5px;
+        font-family: 'Nunito', sans-serif;
+        text-align:left;
+        margin-top:5%;
+        float:left;
+        overflow-x:hidden;
+        font-size:15pt;
+    }
+    #ord2,#ord3{
+    	margin-left:3.33%;
+    }
+    .conto{
+        width:15%;
+        height:5vh;
+        border:1px solid gray;
+        border-radius:5px;
+        font-family: 'Nunito', sans-serif;
+        vertical-align:middle;
+        text-align:center;
+        /*line-height:35px;*/
+        overflow:hidden;
+        font-size:15pt;
+        margin-right:10%;
+    	/*margin-top:3.5%;*/
+    }
+    .add{
+        background-color: white;
+        border-radius: 2px;
+        font-size:15pt;
+        border:1px solid black;
+    }
+    .add:hover{
+        cursor: pointer;
+        background-color: green;
+    }
+    .remove{
+        width:75%;
+        background-color: white;
+        border-radius: 2px;
+        font-size:15pt;
+        border:1px solid black;
+    }
+    .remove:hover{
+        cursor: pointer;
+        background-color: red;
+    }
+    .but1,.rem1{
+    	width:35%;
+    }
+    .but2,.rem2{
+    	width:35%;
+    }
+    .but3,.rem3{
+    	width:35%;
+    }
+    
+    form{
+    	width:100%;
+        height:40%;
+        text-align:center;
+        float:left;
+        border-top:1px dotted black;
+        margin-top:4%;
+    }
+    input[type="submit"]{
+    	margin-top:7%;
+        padding:7px 15px 7px 15px;
+        background-color:white;
+        font-family: 'Nunito', sans-serif;
+        border:1px solid black;
+        font-size:15pt;
+        transition:0.4s;
+        -webkit-appearance: none;
+        margin-bottom:2%;
+    }
+    input[type="submit"]:hover{
+    	margin-top:7%;
+        background-color:black;
+        color:white;
+        font-family: 'Nunito', sans-serif;
+        border:1px solid black;
+        cursor:pointer;
+        transition:0.4s;
+    }
+    strong{
+    	margin-left:1%;
+    }
+}

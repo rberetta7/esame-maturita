@@ -1,0 +1,379 @@
+@media screen and (min-width: 1000px) {
+  *{
+      margin:0px;
+      padding: 0px;
+      box-sizing: border-box;
+  }
+  /* IMMAGINE  */
+  .top{
+      width: 100%;
+      height:50%;
+      background-image: url("../img/pizzeria.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: center;
+      /*box-shadow: 5px 10px 18px #888888;*/
+  }
+  /*  nome PIZZERIA  */
+  .top > span{
+      background-color: white;
+      margin-top:10%;
+      display: inline-block;
+     /* height: 15%;
+      width:15%;*/
+      padding:7px 20px 7px 20px;
+      font-family: 'Nunito', sans-serif;
+      font-size: 30pt;
+      letter-spacing: 2px;
+  }
+  /* MENU GENERALE */
+  .menu{
+      width:100%;
+      height:50%;
+      margin:auto;
+      background-color: white;
+
+  }
+  /* SCRITTA MENU */
+  .menu > h3{
+      display: inline-block;
+      height: 15%;
+      width:100%;
+      padding:10px 20px;
+      font-family: 'Nunito', sans-serif;
+      font-size: 30pt;
+      letter-spacing: 2px;
+      text-align: center;
+  }
+  /* TRATTINO */
+  .menu > span{
+      width: 30px;
+      height: 2px;
+      display: block;
+      background: #ccc7c6;
+      margin: 10 auto;
+      text-align: center;
+      margin-bottom:30px;
+  }
+  /* LEFT/RIGHT MENU */
+  .submenu{
+      width: 50%;
+      float: left;
+  }
+
+  .left{
+      width:30%;
+      margin-left:17.5%;
+      margin-right:5%;
+  }
+
+  .right{
+      width: 30%;
+  }
+
+  .left > h4,
+  .right > h4{
+      width: 80%;
+      float:left;
+      text-transform:uppercase;
+      font-family: 'Nunito', sans-serif;
+      font-size:15pt;
+  }
+
+  .left > h5,
+  .right > h5{
+      width:20%;
+      text-align: right;
+      float:left;
+      font-family: 'Nunito', sans-serif;
+      font-size:12pt;
+  }
+
+  .left > span,
+  .right > span{
+      float: left;
+      margin: 0 0 20px 0;
+      font-family: 'Nunito', sans-serif;
+      font-size:13pt;
+  }
+
+  .spazio{
+      margin: 0 0 5px 0;
+      color:white;
+  }
+
+  .dolci{
+      margin-left:34.5%;
+  }	
+  #prenota{
+  	position:absolute;
+    right:5px;
+    top:5px;
+    text-decoration:none;
+    padding:5px 10px 5px 10px;
+    background-color:black;
+    color:white;
+    font-family: 'Nunito', sans-serif;
+  }
+  #pdf{
+  	position:absolute;
+    left:0;
+    top:0;
+    text-decoration:none;
+    padding:1px 2px 1px 2px;
+    background-color:black;
+    color:white;
+    width:3%;
+    height:6%;
+  }
+  #imgPdf{
+  	width:100%;
+    height:100%;
+  }
+}
+
+/*    TABLET     */
+@media only screen and (min-width: 750px) and (max-width: 1000px){
+	*{
+      margin:0px;
+      padding: 0px;
+      box-sizing: border-box;
+  }
+  /* IMMAGINE  */
+  .top{
+      width: 100%;
+      height:30%;
+      background-image: url("../img/pizzeria.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: center;
+      /*box-shadow: 5px 10px 18px #888888;*/
+  }
+  /*  nome PIZZERIA  */
+  .top > span{
+      background-color: white;
+      margin-top:12.5%;
+      display: inline-block;
+      /*height: 40%;
+      width:47%;*/
+      padding:7px 35px;
+      font-family: 'Nunito', sans-serif;
+      font-size: 65pt;
+      letter-spacing: 2px;
+  }
+  /* MENU GENERALE */
+  .menu{
+      width:100%;
+      height:50%;
+      margin:auto;
+      background-color: white;
+
+  }
+  /* SCRITTA MENU */
+  .menu > h3{
+      display: inline-block;
+      height: 15%;
+      width:100%;
+      padding:10px 20px;
+      font-family: 'Nunito', sans-serif;
+      font-size: 50pt;
+      letter-spacing: 2px;
+      text-align: center;
+  }
+  /* TRATTINO */
+  .menu > span{
+      width: 50px;
+      height: 2px;
+      display: block;
+      background: #ccc7c6;
+      margin:0 auto;
+      /*text-align: center;*/
+      margin-bottom:30px;
+      margin-top:20px;
+  }
+  /* LEFT/RIGHT MENU */
+  .submenu{
+      width: 50%;
+  }
+
+  .left{
+      width:75%;
+      margin-left:13%;
+      margin-right:5%;
+  }
+
+  .right{
+      width:75%;
+      margin-left:13%;
+  }
+
+  .left > h4,
+  .right > h4{
+      width: 80%;
+      float:left;
+      text-transform:uppercase;
+      font-family: 'Nunito', sans-serif;
+      font-size:30pt;
+  }
+
+  .left > h5,
+  .right > h5{
+      width:20%;
+      text-align: right;
+      float:left;
+      font-family: 'Nunito', sans-serif;
+      font-size:20pt;
+  }
+
+  .pizze{
+      float: left;
+      margin: 0 0 20px 0;
+      font-family: 'Nunito', sans-serif;
+      font-size:20pt;
+  }
+
+  .spazio{
+      margin: 0 0 5px 0;
+      color:white;
+  }
+
+  .dolci{
+      margin-left:13%;
+  }
+  #prenota{
+  	position:absolute;
+    right:5px;
+    top:5px;
+    text-decoration:none;
+    padding:5px 10px 5px 10px;
+    background-color:black;
+    color:white;
+    font-family: 'Nunito', sans-serif;
+  }
+  #pdf{display:none;}
+}
+
+/*             TELEFONI          */
+@media only screen and (max-width: 750px) {
+	*{
+      margin:0px;
+      padding: 0px;
+      box-sizing: border-box;
+  }
+  /* IMMAGINE  */
+  .top{
+      width: 100%;
+      height:20%;
+      background-image: url("../img/pizzeria.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: center;
+      /*box-shadow: 5px 10px 18px #888888;*/
+  }
+  /*  nome PIZZERIA  */
+  .top > span{
+      background-color: white;
+      margin-top:8%;
+      display: inline-block;
+      /*height: 38%;
+      width:53%;*/
+      padding:6px 20px;
+      font-family: 'Nunito', sans-serif;
+      font-size: 32pt;
+      letter-spacing: 2px;
+  }
+  /* MENU GENERALE */
+  .menu{
+      width:100%;
+      height:50%;
+      margin:auto;
+      background-color: white;
+  }
+  /* SCRITTA MENU */
+  .menu > h3{
+      display: inline-block;
+      height: 15%;
+      width:100%;
+      padding:10px 20px;
+      font-family: 'Nunito', sans-serif;
+      font-size: 30pt;
+      letter-spacing: 2px;
+      text-align: center;
+  }
+  /* TRATTINO */
+  .menu > span{
+      width: 40px;
+      height: 2px;
+      display: block;
+      background: #ccc7c6;
+      margin: 0 auto;
+      /*text-align: center;*/
+      margin-bottom:30px;
+      margin-top:10px;
+  }
+  /* LEFT/RIGHT MENU */
+  .submenu{
+      width: 50%;
+  }
+
+  .left{
+      width:75%;
+      margin-left:13%;
+      margin-right:5%;
+  }
+
+  .right{
+      width: 75%;
+      margin-left:13%;
+  }
+
+  .left > h4,
+  .right > h4{
+      width: 80%;
+      float:left;
+      text-transform:uppercase;
+      font-family: 'Nunito', sans-serif;
+      font-size:15pt;
+  }
+
+  .left > h5,
+  .right > h5{
+      width:20%;
+      text-align: right;
+      float:left;
+      font-family: 'Nunito', sans-serif;
+      font-size:10pt;
+	  vertical-align: middle;
+      line-height:25px;
+  }
+
+  .pizze{
+      float: left;
+      margin: 0 0 20px 0;
+      font-family: 'Nunito', sans-serif;
+      font-size:11pt;
+  }
+
+  .spazio{
+      margin: 0 0 5px 0;
+      color:white;
+  }
+
+  .dolci{
+      margin-left:13%;
+  }
+  #prenota{
+  	position:absolute;
+    right:0;
+    top:0;
+    text-decoration:none;
+    padding:5px 10px 5px 10px;
+    background-color:black;
+    color:white;
+    font-family: 'Nunito', sans-serif;
+  }
+  #pdf{display:none;}
+}
